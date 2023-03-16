@@ -1,0 +1,121 @@
+body {
+	font-family: 'Nunito sans';
+}
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 0px 20px;
+}
+
+.compare-prices {
+	position: relative;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	padding: 15px 17px;
+	font-size: 15px;
+	border-radius: 8px;
+	background-color: rgb(156, 71, 209);
+	display: inline-block;
+	opacity: 0.9;
+	transition: 0.2s;
+	letter-spacing: 1px;
+}
+
+.compare-prices:hover {
+	opacity: 1;
+	background-color: #8b35b3;
+}
+
+header {
+	margin-top: 100px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 32px;
+	opacity: .7;
+}
+
+header p {
+	font-size: 18px;
+	opacity: .8;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+header img {
+	width: 100vw;
+	display: block;
+}
+
+.toggle1:after {
+	content: 'How much is car insurance in Montreal?';
+}
+.toggle2:after {
+	content: 'How can I get cheaper car insuranse in Montreal?';
+}
+.toggle3:after {
+	content: 'How does car insuranse work in Montreal?';
+}
+
+.toggle1:not(checked) ~ .content1 {
+	height: 0px;
+}
+.toggle1:checked ~ .content1 {
+	height: 160px;
+}
+.toggle2:not(checked) ~ .content2 {
+	height: 0px;
+}
+.toggle2:checked ~ .content2 {
+	height: 280px;
+}
+.toggle3:not(checked) ~ .content3 {
+	height: 0px;
+}
+.toggle3:checked ~ .content3 {
+	height: 240px;
+}
+
+.footer-promo-section {
+	text-align: center;
+	position: relative;
+	padding: 30px 0px;
+}
+.footer-promo-section h2 {
+	font-size: 30px;
+	opacity: .7;
+}
+.footer-promo-section a {
+
+}
+.footer-promo-section img {
+	width: 100vw;
+	display: block;
+}
+
+@media screen and (max-width: 1015px) {
+	.toggle1:checked ~ .content1 {
+		height: 200px;
+	}
+	.toggle2:checked ~ .content2 {
+		height: 440px;
+	}
+	.toggle3:checked ~ .content3 {
+		height: 360px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

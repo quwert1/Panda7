@@ -1,0 +1,76 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	font-family: 'Nunito sans';
+}
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.report-clame-section {
+	margin-top: 100px;
+	text-align: center;
+}
+.report-clame-section h1,
+.report-clame-section h2 {
+	font-size: 30px;
+	opacity: .7;
+}
+.report-clame-section p {
+	font-size: 18px;
+	opacity: .8;
+}
+.report-clame-section p:nth-of-type(1) {
+	margin-bottom: 70px;
+}
+
+.report-clame-section .contacts-block {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	row-gap: 60px;
+	column-gap: 300px;
+	margin: 50px 0px;
+}
+.report-clame-section .contacts-block .card {
+	width: 300px;
+	height: 240px;
+	text-align: center;
+	position: relative;
+}
+.contacts-block .card:nth-of-type(1) img {
+	width: 200px;
+}
+.contacts-block .card:nth-of-type(2) img {
+	width: 240px;
+}
+.contacts-block .card a {
+	text-decoration: none;
+	color: #8b35b3;
+	border: 1px solid #8b35b3;
+	border-radius: 15px;
+	padding: 12px 0px;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

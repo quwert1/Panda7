@@ -1,0 +1,66 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: 'Nunito sans';
+}
+
+.container > a {
+	text-decoration: none;
+	color: black;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 20px;
+	outline: none;
+}
+	
+.container {
+	max-width: 900px;
+}
+
+.terms,
+.complaint-policy,
+.privacy-policy {
+	margin: 100px auto;
+}
+
+.centered {
+	text-align: center;
+	margin: auto;
+}
+
+.purple {
+	color: rgb(156, 71, 209) !important;
+}
+
+h1, h2, h3 {
+	font-size: 30px;
+	opacity: .7;
+}
+
+.opacity {
+	opacity: .7;
+}
+
+.footer-container {
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

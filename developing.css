@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+}
+
+.info {
+	margin: auto;
+	display: inline-block;
+}
+
+.info img {
+	width: 500px;
+}
+
+.info h1 {
+	font-size: 55px;
+	font-family: sans-serif;
+	color: #4a4a4a;
+}
+
+/*.info, h1, img {
+	border: 1px solid black;
+}*/
