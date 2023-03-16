@@ -58,6 +58,15 @@ header .start {
 	-webkit-user-select: none;
 }
 
+.start-text {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+.start-text:after {
+	content: 'Start';
+}
+
 header .start:active {
 	animation: start-border-resize 2s infinite linear;
 }
