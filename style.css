@@ -1415,6 +1415,21 @@ footer .lighted a:hover{
 	}
 }
 
+@media screen and (max-width: 478px) {
+	.background-bottom-header-image {
+		top: 625px;
+	}
+}
+
+@media screen and (max-width: 378px) {
+	.background-bottom-header-image {
+		top: 675px;
+	}
+	.background-forest .man-with-child {
+		display: none;
+	}
+}
+
 
 
 
