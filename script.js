@@ -1,7 +1,7 @@
 // var el = document.querySelector('#big-nav-menu').offsetWidth
 
-
 // alert(el)
+
 // matchMedia
 
 // const mediaQuery = window.matchMedia('(min-width: 768px)')
@@ -23,16 +23,6 @@
 // show.addListener(handleTabletChange)
 // handleTabletChange(show)
 
-
-
-// const mediaQuery = window.matchMedia('(max-width: 1200px)')
-// function handleTabletChange(e) {
-//   if (e.matches) {
-//     alert('Media Query Matched!')
-//   }
-// }
-// mediaQuery.addListener(handleTabletChange)
-// handleTabletChange(mediaQuery)
 
 
 

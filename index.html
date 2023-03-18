@@ -12,8 +12,6 @@
 <body>
 	<style> @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito+Sans:wght@200;400;700;800;900&display=swap'); </style>
 
-	<img class="background-bottom-header-image" src="img/snow-floor.svg" alt="">
-
 	<nav>
 		<div class="full-nav-panel">
 			<ul class="top-left-nav-menu" id="big-nav-menu">
@@ -25,8 +23,7 @@
 			</ul>
 
 			<div class="top-right-nav-menu">
-				<a href="#" class="language languageFR" id="languageFR" onmousedown="viewRU">FR</a>
-				<!-- <a href="#" class="language languageRU" id="languageRU" onmousedown="viewFR">RU</a> -->
+				<a href="indexRU.html" class="language">RU</a>
 				<a href="compare-prices.html" class="prices">COMPARE PRICES</a>
 			</div>
 		</div>
@@ -43,6 +40,8 @@
 					<li><a href="condo.html">Condo</a></li>
 					<li><a href="homeowner.html">Homeowner</a></li>
 					<li><a href="giveback.html">Giveback<img src="img/treeLeaf.png" width="15px" class="tree-leaf"></a></li>
+
+					<li><a href="indexRU.html" class="hide-language">RU</a></li>
 				</ul>
 
 				<div class="hamburger-top-right-nav-menu">
@@ -109,7 +108,7 @@
 		</div>
 	</div>
 
-	<header>
+	<header id="header">
 		<div class="block-clouds">
 			<div class="clouds">
 				<div class="cloud"><img src="https://d25b3ngygxsbuv.cloudfront.net/c5b6723b-d144-44f9-9e39-5ff8eb0b13ac.svg" alt=""></div>
@@ -148,6 +147,8 @@
 				<img src="img/home-canada-rightside.svg" width="440px" class="right-house">
 			</div>	
 		</div>
+
+		<img class="background-bottom-header-image" src="img/snow-floor.svg" alt="">
 	</header>
 
 	<div class="test-comment">
@@ -384,15 +385,11 @@
 	</footer>
 
 	<script>
-		// alert("Don't touch the switcher on the right!")
-
 		document.getElementById('dark-theme').addEventListener('change', () => {
 			document.body.classList.toggle('dark');
 		})
 	</script>
 	<script src="script.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<div class="block"></div>
 </body>
 </html>
 

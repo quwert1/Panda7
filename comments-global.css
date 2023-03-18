@@ -49,11 +49,10 @@
 @keyframes commentSlide2 {
 	from {
 		margin-left: 100%;
-}
+	}
 
 	to {
 		margin-left: -2550px;
-/*		margin-left: 90%;*/
 	}
 }
 
@@ -76,7 +75,6 @@
 	display: inline-block;
 	font-size: 25px;
 	color: #3c0556;
-/*	vertical-align: 30px;*/
 	top: 8px;
 	left: 90px;
 	margin-left: 10px;
