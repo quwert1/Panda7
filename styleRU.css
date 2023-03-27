@@ -1,50 +1,57 @@
-body, html {
-	overflow-x: hidden;
-}
-
-body.dark {
-	filter: invert(0%);
-}
-
-nav {
-	padding-bottom: 15px;
-	position: fixed;
-	width: 100%;
-}
-
-nav .hide-bars {
-	display: block;
-}
-
-nav .hide-bars .prices {
-	margin-right: 20px;
-}
-
-.start-box-logo {
-	display: none;
-}
-
-.container-box-logo {
-	position: fixed;
-	top: -15px;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
-.dark-theme {
-	display: none;
-}
-
-.background-bottom-header-image {
-	top: 625px;
-}
-
 .background-forest .centered-forest {
-	top: 0px;
+	top: -10px;
 }
 
 .box-header-centered .promo {
 	font-size: 35px !important;
+}
+
+@media screen and (max-width: 1350px) {
+	nav {
+		padding-bottom: 15px;
+		position: fixed;
+		width: 100%;
+	}
+
+	nav .full-nav-panel {
+		display: none;
+	}
+
+	nav .hide-bars {
+		display: block;
+	}
+
+	nav .hide-bars .prices {
+		margin-right: 20px;
+	}
+
+	.start-box-logo {
+		display: none;
+	}
+
+	.container-box-logo {
+		position: fixed;
+		top: -15px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.background-bottom-header-image {
+		top: 625px;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.background-forest .centered-forest {
+		transform: scaleX(-1);
+		left: 0px;
+		top: 35px;
+		width: 70vw;
+	}
+
+	.background-forest .man-with-child {
+		top: 110px;
+	}
 }
 
 @media screen and (max-width: 675px) {
@@ -73,6 +80,8 @@ nav .hide-bars .prices {
 		display: none;
 	}
 }
+
+
 
 
 

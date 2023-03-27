@@ -285,10 +285,14 @@ nav {
 .language {
 	display: inline-block;
 
-	font-size: 18px;
+	font-size: 18px !important;
+	transform: translateY(3px);
 
 	text-decoration: none;
 	color: #60584f;
+}
+.language:hover {
+	color: #b443d8;
 }
 
 .prices {
@@ -308,19 +312,14 @@ nav {
 
 	transition: 0.5s;
 }
-
 .prices:hover {
 	background-color: #b443d8;
 	color: white;
 }
 
-.language:hover {
-	color: #b443d8;
-}
-
 .dark-theme {
 	appearance: none;
-	z-index: 999;
+	z-index: 9;
 
 	position: sticky;
 	top: 101px;
@@ -369,6 +368,11 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .hamburger-nav-panel .hamburger-top-left-nav-menu {
@@ -404,13 +408,6 @@ nav {
 	transition: .5s;
 }
 
-.hamburger-nav-panel .hamburger-top-left-nav-menu li:last-child:after {
-	display: none;
-}
-.hamburger-nav-panel .hamburger-top-left-nav-menu li:last-child {
-	width: 30px !important;
-}
-
 .hamburger-nav-panel .hamburger-top-left-nav-menu a {
 	display: inline-block;
 	text-decoration: none;
@@ -425,6 +422,16 @@ nav {
 }
 .hamburger-nav-panel .hamburger-top-left-nav-menu li:hover > a {
 	color: #8b35b3;
+}
+
+.hamburger-top-left-nav-menu li:nth-child(5) a {
+	position: relative;
+}
+
+.hamburger-top-left-nav-menu li:nth-child(5) .tree-leaf {
+	position: absolute;
+	top: 15px;
+	left: 127%;
 }
 
 .open-hamburger-input {
@@ -442,6 +449,22 @@ nav {
 
 .hamburger-nav-panel label:hover {
 	opacity: .8;
+}
+
+.hide-language {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 450px;
+	left: 0px;
+	z-index: 999;
+	opacity: 0;
+	transition: .5s;
+}
+
+#open-hamburger:checked + .hamburger-nav-panel .hamburger-top-right-nav-menu .hide-language {
+	opacity: 1;
+	transform: translateX(30px);
 }
 
 #open-hamburger:checked + .hamburger-nav-panel .hamburger-top-left-nav-menu {
@@ -578,7 +601,7 @@ header .background .header-left-house img:nth-child(2) {
 	width: 40px;
 	position: absolute;
 	top: -182px;
-	left: 27.5px;
+	left: 30px;
 }
 
 header .background .header-right-house {
@@ -1316,7 +1339,8 @@ footer .lighted a:hover{
 	}
 
 	.background-forest .man-with-child {
-		left: 10px;
+		left: -20px;
+		width: 280px;
 	}
 
 	.background-forest .centered-forest {
@@ -1385,7 +1409,7 @@ footer .lighted a:hover{
 
 	.comments .comment {
 		width: 300px;
-		height: 295px;
+		height: 300px;
 	}
 }
 
