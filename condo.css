@@ -274,7 +274,9 @@ nav {
 .slider-container {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
+	row-gap: 30px;
+	column-gap: 120px;
 	flex-wrap: wrap;
 }
 
